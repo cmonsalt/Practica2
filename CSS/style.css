@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+ width: 100%;
+ height: 60vh;
+ background-color:#98C9EA;
+ border-top: 60px solid #6CB37A;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.columna:nth-child(1){
+    width: 25%;
+    background-image: url(https://www.alkomprar.com/medias/4710886056485-001-310Wx310H?context=bWFzdGVyfGltYWdlc3wzOTIzNHxpbWFnZS9qcGVnfGltYWdlcy9oYWYvaGE5Lzk4NzUwOTc5MTEzMjYuanBnfGFjOGE4YjY0ZGU2NzVkN2MyM2NiNDI5NmU3YjJiMjdmZDhlZjFlZjBhZGM5M2M1NThhMWQzYjA3MjI4MjEzNzg);
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.columna:nth-child(2){
+    width: 25%;
+    background-image: url(https://www.alkomprar.com/medias/4718017846431-001-310Wx310H?context=bWFzdGVyfGltYWdlc3wyMzgxM3xpbWFnZS9qcGVnfGltYWdlcy9oZDkvaGNlLzk4MDYwNTE1MDgyNTQuanBnfDI2YmY3Mjk1OWMxNDU5MDBiMWExNThjOWU4MTM5YTM0NDM5NjU4ZDMwZWQ1ZjFhZTg1MTZjN2QzOGU1ZTI3NWY);
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.columna:nth-child(3){
+    width: 25%;
+    background-image: url(https://www.pcware.com.co/wp-content/uploads/2018/05/portatil-lenovo-v310.jpg);
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.columna h2{
+    background-color: rgba(31, 199, 53, 0.4);
+    color: rgb(22, 16, 10);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.columna button{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    background-color: rgb(48, 168, 84);
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 230px;
+}
+
+.columna button:hover{
+    background-color: rgb(86, 174, 209) ;
+    color: red;
+    cursor: pointer;
+}
